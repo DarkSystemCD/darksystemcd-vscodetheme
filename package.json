@@ -1,0 +1,28 @@
+{
+  "name": "darksystemcd-vscodetheme",
+  "displayName": "DarkSystemCD®VSCodeTheme",
+  "description": "bloodart vscode color pallet under darksystemcd productivity",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "author": {
+    "name": "BloodArt"
+  },
+  "repository": {
+    "url": "https://github.com/DarkSystemCD/darksystemcd-vscodetheme.git",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkSystemCD®VSCodeTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DarkSystemCD®VSCodeTheme-color-theme.json"
+      }
+    ]
+  }
+}

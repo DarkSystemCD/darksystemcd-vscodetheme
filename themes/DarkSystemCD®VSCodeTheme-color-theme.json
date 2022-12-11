@@ -1,8 +1,6 @@
 {
 	"name": "DarkSystemCD®VSCodeTheme",
 	"tokenColors": [
-
-  //     Editor Keywords            ::::
   {
    "name": "EDITOR KEYWORDS",
    "scope": [

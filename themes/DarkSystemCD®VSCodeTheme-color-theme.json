@@ -10,7 +10,10 @@
     "punctuation.separator.hash.cs",
     "keyword.preprocessor.region.cs",
     "keyword.preprocessor.endregion.cs",
-    "string.unquoted.preprocessor.message.cs"
+    "punctuation.definition.entity.css",
+    "punctuation.definition.heading.markdown",
+    "string.unquoted.preprocessor.message.cs",
+    "punctuation.definition.list.begin.markdown"
    ],
    "settings": {
     "foreground": "#4a4a4a"
@@ -20,7 +23,9 @@
   {
    "name": "EDITOR TEXT",
    "scope": [
-    "source.cs"
+    "source.cs",
+    "source.css",
+    "text.html.markdown"
   ],
    "settings": {
     "foreground": "#9f9b96"
@@ -30,7 +35,9 @@
   {
    "name": "EDITOR COMMENT",
    "scope": [
-    "comment.block.cs"
+    "comment.block.js",
+    "comment.block.cs",
+    "comment.block.css"
   ],
    "settings": {
     "foreground": "#2f6fa3"
@@ -41,6 +48,7 @@
    "name": "LANGUAGE KEYWORDS",
    "scope": [
     "keyword.type.cs",
+    "entity.name.tag.css",
     "keyword.other.is.cs",
     "storage.modifier.cs",
     "keyword.other.set.cs",
@@ -56,20 +64,36 @@
     "keyword.other.class.cs",
     "keyword.other.typeof.cs",
     "keyword.control.case.cs",
+    "keyword.control.loop.js",
+    "keyword.control.flow.js",
+    "storage.type.function.js",
+    "keyword.control.switch.js",
     "keyword.other.delegate.cs",
     "keyword.control.switch.cs",
+    "support.function.misc.css",
     "constant.language.null.cs",
     "keyword.control.default.cs",
+    "keyword.control.trycatch.js",
     "keyword.control.loop.for.cs",
     "keyword.control.try.catch.cs",
+    "support.function.gradient.css",
     "keyword.control.flow.break.cs",
+    "keyword.control.conditional.js",
     "keyword.control.try.finally.cs",
     "keyword.control.flow.return.cs",
+    "support.function.transform.css",
     "constant.language.json.comments",
+    "constant.language.boolean.true.js",
+    "punctuation.definition.entity.css",
     "keyword.control.conditional.if.cs",
     "constant.language.boolean.true.cs",
+    "keyword.control.at-rule.media.css",
     "constant.language.boolean.false.cs",
+    "punctuation.separator.key-value.css",
     "keyword.control.conditional.else.cs",
+    "support.function.timing-function.css",
+    "keyword.control.at-rule.keyframes.css",
+    "keyword.operator.expression.typeof.js"
    ],
    "settings": {
     "foreground": "#8a8a8a",
@@ -93,12 +117,16 @@
    "scope": [
     "entity.name.type.cs",
     "entity.name.tag.html",
+    "meta.property-name.css",
     "entity.name.type.class.cs",
     "entity.name.type.alias.cs",
     "entity.name.tag.localname.xml",
+    "support.type.property-name.css",
     "punctuation.definition.tag.xml",
     "support.type.property-name.json",
-    "entity.name.section.group-title.ini"
+    "entity.other.attribute-name.html",
+    "entity.name.section.group-title.ini",
+    "support.type.property-name.media.css"
   ],
    "settings": {
     "foreground": "#865757",
@@ -109,7 +137,9 @@
   {
    "name": "LANGUAGE FUNCTION",
    "scope": [
-    "entity.name.function.cs"
+    "entity.name.function.cs",
+    "entity.name.function.js",
+    "entity.other.attribute-name.pseudo-class.css"
   ],
    "settings": {
     "foreground": "#bb7373"
@@ -119,7 +149,10 @@
   {
    "name": "LANGUAGE PARAMETER",
    "scope": [
-    "entity.name.variable.parameter.cs"
+    "variable.parameter.js",
+    "entity.name.tag.wildcard.css",
+    "entity.name.variable.parameter.cs",
+    "entity.other.attribute-name.id.css"
   ],
    "settings": {
     "foreground": "#598b55"
@@ -130,16 +163,24 @@
    "name": "LANGUAGE DATA",
    "scope": [
     "constant.numeric.cue",
+    "constant.numeric.css",
     "string.quoted.double.cs",
+    "string.quoted.double.js",
+    "string.quoted.double.css",
     "string.quoted.double.ini",
     "string.quoted.single.ini",
     "string.quoted.double.cue",
     "string.quoted.double.xml",
     "string.quoted.double.json",
+    "string.quoted.double.html",
+    "variable.parameter.url.css",
+    "constant.numeric.decimal.js",
     "constant.numeric.decimal.cs",
     "constant.numeric.json.comments",
     "punctuation.definition.string.end.ini",
+    "constant.other.color.rgb-value.hex.css",
     "punctuation.definition.string.begin.ini",
+    "entity.other.keyframe-offset.percentage.css"
   ],
    "settings": {
     "foreground": "#ab9770",
@@ -151,8 +192,10 @@
    "name": "LANGUAGE FEATURE",
    "scope": [
     "source.cuelang",
+    "variable.other.property.js",
     "keyword.other.definition.ini",
     "variable.other.object.property.cs",
+    "support.constant.property-value.css",
     "entity.other.attribute-name.localname.xml"
   ],
    "settings": {
@@ -164,23 +207,37 @@
    "name": "LANGUAGE PUNCTUATION",
    "scope": [
     "meta.tag.xml",
+    "meta.brace.round.js",
     "keyword.operator.logical.cs",
     "keyword.operator.bitwise.cs",
+    "keyword.operator.logical.js",
     "keyword.operator.increment.cs",
     "keyword.operator.increment.cs",
+    "keyword.operator.comparison.js",
     "keyword.operator.comparison.cs",
     "punctuation.curlybrace.open.cs",
     "keyword.operator.assignment.cs",
     "keyword.operator.relational.cs",
     "keyword.operator.arithmetic.cs",
+    "keyword.operator.assignment.js",
+    "punctuation.definition.block.js",
     "punctuation.curlybrace.close.cs",
     "punctuation.parenthesis.open.cs",
     "punctuation.parenthesis.close.cs",
     "punctuation.squarebracket.open.cs",
     "punctuation.squarebracket.close.cs",
+    "punctuation.separator.parameter.js",
+    "punctuation.terminator.statement.js",
     "punctuation.separator.key-value.ini",
     "keyword.operator.null-coalescing.cs",
+    "punctuation.definition.tag.end.html",
+    "punctuation.separator.key-value.html",
+    "punctuation.definition.tag.begin.html",
+    "punctuation.definition.parameters.end.js",
+    "punctuation.definition.parameters.begin.js",
     "constant.numeric.other.separator.decimals.cs",
+    "punctuation.section.property-list.end.bracket.curly.css",
+    "punctuation.section.property-list.begin.bracket.curly.css"
   ],
    "settings": {
     "foreground": "#7a4a45",
@@ -193,9 +250,10 @@
    "scope": [
     "punctuation.curlybrace.open.cs",
     "punctuation.curlybrace.close.cs",
+    "entity.other.attribute-name.class.css"
   ],
    "settings": {
-    "foreground": "#9a25c9",
+    "foreground": "#a43cce",
     "fontStyle": "bold"
    }
   }
@@ -263,18 +321,19 @@
 
   "editor.background": "#000000",
   "editor.foreground": "#a7a7a7",
-  "editor.selectionBackground": "#81a2cd60",
-  "editor.inactiveSelectionBackground": "#50658060",
-  "editor.selectionHighlightBackground": "#adc1ff17",
+  "editor.selectionBackground": "#81a2cd3d",
+  "editor.selectionForeground": "#ffffff",
+  "editor.inactiveSelectionBackground": "#00ff2a00",
+  "editor.selectionHighlightBackground": "#ff910013",
   "editor.selectionHighlightBorder": "#a9bffd28",
-  "editor.findMatchBackground": "#799cff7c",
-  "editor.findMatchBorder": "#adc2ff28",
-  "editor.findMatchHighlightBackground": "#ffeead28",
-  "editor.findMatchHighlightBorder": "#ffe4528b",
-  "editor.findRangeHighlightBackground": "#3a3d4166",
+  "editor.findMatchBackground": "#00ff2a13",
+  "editor.findMatchBorder": "#ffffff41",
+  "editor.findMatchHighlightBackground": "#00ff2a13",
+  "editor.findMatchHighlightBorder": "#ffffff41",
+  "editor.findRangeHighlightBackground": "#00ff2a13",
   "editor.findRangeHighlightBorder": "#ffffff00",
   "editor.rangeHighlightBackground": "#ffffff0b",
-  "editor.rangeHighlightBorder": "#ffffff00",
+  "editor.rangeHighlightBorder": "#ff000000",
   "editor.hoverHighlightBackground": "#4d303040",
   "editor.wordHighlightStrongBackground": "#42292986",
   "editor.wordHighlightStrongBorder": "#8d5959",

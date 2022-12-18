@@ -17,4 +17,11 @@ on interfaces and electronic, digital and virtual media.
 
 ---
 
+INSTALLATION
+
+- download the theme :: https://github.com/DarkSystemCD/darksystemcd-vscodetheme/archive/refs/heads/main.zip<br>
+- unzip at vscode extensions folder
+
+---
+
 @microsoft @vscode

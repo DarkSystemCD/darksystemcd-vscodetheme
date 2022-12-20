@@ -2,7 +2,16 @@
   "name": "darksystemcd-vscodetheme",
   "displayName": "DarkSystemCD®VSCodeTheme",
   "description": "bloodart vscode color pallet under darksystemcd productivity",
+  "keywords": [
+		"theme",
+		"dscd",
+		"darksystemcd",
+		"bloodart",
+    "wdhells"
+	],
   "version": "0.0.1",
+  "license": "all rights reserved.",
+	"publisher": "DarkSystemCD®",
   "engines": {
     "vscode": "^1.74.0"
   },

@@ -1,37 +1,37 @@
 {
-  "name": "darksystemcd-vscodetheme",
-  "displayName": "DarkSystemCD®VSCodeTheme",
-  "description": "bloodart vscode color pallet under darksystemcd productivity",
-  "keywords": [
-		"theme",
-		"dscd",
-		"darksystemcd",
-		"bloodart",
-    "wdhells"
-	],
-  "version": "0.0.1",
-  "license": "all rights reserved.",
-	"publisher": "DarkSystemCD®",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "author": {
-    "name": "BloodArt"
-  },
-  "repository": {
-    "url": "https://github.com/DarkSystemCD/darksystemcd-vscodetheme.git",
-    "type": "git"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "DarkSystemCD®VSCodeTheme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/DarkSystemCD®VSCodeTheme-color-theme.json"
-      }
-    ]
-  }
+ "name": "darksystemcd-vscodetheme",
+ "displayName": "DarkSystemCD®VSCodeTheme",
+ "description": "bloodart vscode color pallet under darksystemcd productivity",
+ "keywords": [
+  "theme",
+  "dscd",
+  "darksystemcd",
+  "bloodart",
+  "wdhells"
+ ],
+ "version": "0.0.1",
+ "license": "all rights reserved.",
+ "publisher": "DarkSystemCD®",
+ "engines": {
+  "vscode": "^1.84.0"
+ },
+ "author": {
+  "name": "BloodArt"
+ },
+ "repository": {
+  "url": "https://github.com/DarkSystemCD/darksystemcd-vscodetheme.git",
+  "type": "git"
+ },
+ "categories": [
+  "Themes"
+ ],
+ "contributes": {
+  "themes": [
+   {
+    "label": "DarkSystemCD®VSCodeTheme",
+    "uiTheme": "hc-black",
+    "path": "./darksystemcd-vscodetheme.json"
+   }
+  ]
+ }
 }

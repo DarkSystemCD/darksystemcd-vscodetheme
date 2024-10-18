@@ -19,7 +19,10 @@
   {
    "name": "EDITOR TEXT",
    "scope": [
-    "source.cs"
+    "source.cs",
+    "source.js",
+    "source.css",
+    "source.json"
   ],
    "settings": {
     "foreground": "#c0c0c0d1"
@@ -29,7 +32,10 @@
   {
    "name": "EDITOR COMMENT",
    "scope": [
-    "comment.block.cs"
+    "comment.block.cs",
+    "comment.block.js",
+    "comment.block.css",
+    "comment.block.html"
   ],
    "settings": {
     "foreground": "#2f6fa3"
@@ -40,6 +46,7 @@
    "name": "LANGUAGE KEYWORDS",
    "scope": [
     "keyword.type.cs",
+    "entity.name.tag.css",
     "keyword.other.as.cs",
     "keyword.other.is.cs",
     "storage.modifier.cs",
@@ -58,13 +65,21 @@
     "keyword.type.double.cs",
     "keyword.other.typeof.cs",
     "keyword.control.case.cs",
+    "storage.type.function.js",
     "keyword.other.delegate.cs",
     "keyword.control.switch.cs",
+    "constant.language.null.js",
     "constant.language.null.cs",
+    "support.function.misc.css",
     "keyword.control.default.cs",
+    "constant.numeric.decimal.js",
+    "keyword.operator.logical.js",
     "keyword.control.loop.for.cs",
+    "keyword.other.important.css",
+    "keyword.control.trycatch.js",
     "keyword.control.try.catch.cs",
     "keyword.control.flow.break.cs",
+    "keyword.control.conditional.js",
     "keyword.control.try.finally.cs",
     "keyword.control.flow.return.cs",
     "constant.language.json.comments",
@@ -104,7 +119,9 @@
     "entity.name.tag.localname.xml",
     "punctuation.definition.tag.xml",
     "support.type.property-name.json",
-    "entity.name.section.group-title.ini"
+    "entity.other.attribute-name.html",
+    "entity.name.section.group-title.ini",
+    "entity.other.attribute-name.pseudo-class.css"
   ],
    "settings": {
     "foreground": "#865757",
@@ -113,9 +130,21 @@
   },
 
   {
+   "name": "LANGUAGE UNIT A",
+   "scope": [
+    "support.type.property-name.css"
+  ],
+   "settings": {
+    "foreground": "#865757"
+   }
+  },
+
+  {
    "name": "LANGUAGE FUNCTION",
    "scope": [
-    "entity.name.function.cs"
+    "entity.name.function.cs",
+    "entity.name.function.js",
+    "support.function.misc.css"
   ],
    "settings": {
     "foreground": "#bb7373"
@@ -125,6 +154,8 @@
   {
    "name": "LANGUAGE PARAMETER",
    "scope": [
+    "variable.parameter.js",
+    "variable.argument.css",
     "entity.name.variable.parameter.cs"
   ],
    "settings": {
@@ -136,12 +167,15 @@
    "name": "LANGUAGE DATA",
    "scope": [
     "constant.numeric.cue",
+    "constant.numeric.css",
+    "string.quoted.single.js",
     "string.quoted.double.cs",
     "string.quoted.double.ini",
     "string.quoted.single.ini",
     "string.quoted.double.cue",
     "string.quoted.double.xml",
     "string.quoted.double.json",
+    "string.quoted.double.html",
     "constant.numeric.decimal.cs",
     "constant.numeric.json.comments",
     "punctuation.definition.string.end.ini",
@@ -158,6 +192,9 @@
     "source.cuelang",
     "keyword.other.definition.ini",
     "variable.other.object.property.cs",
+    "variable.other.object.property.js",
+    "entity.other.attribute-name.id.css",
+    "entity.other.attribute-name.class.css",
     "entity.other.attribute-name.localname.xml"
   ],
    "settings": {
@@ -169,6 +206,7 @@
    "name": "LANGUAGE PUNCTUATION",
    "scope": [
     "meta.tag.xml",
+    "meta.brace.round.js",
     "punctuation.accessor.cs",
     "keyword.operator.logical.cs",
     "keyword.operator.bitwise.cs",
@@ -187,7 +225,14 @@
     "punctuation.separator.key-value.ini",
     "keyword.operator.null-coalescing.cs",
     "punctuation.terminator.statement.cs",
-    "constant.numeric.other.separator.decimals.cs"
+    "punctuation.separator.key-value.html",
+    "punctuation.definition.string.end.html",
+    "punctuation.definition.string.end.json",
+    "punctuation.definition.string.begin.html",
+    "punctuation.definition.string.begin.json",
+    "punctuation.separator.dictionary.pair.json",
+    "constant.numeric.other.separator.decimals.cs",
+    "punctuation.separator.dictionary.key-value.json"
   ],
    "settings": {
     "foreground": "#5184ff",
@@ -198,8 +243,11 @@
   {
    "name": "LANGUAGE PUNCTUATION II",
    "scope": [
+    "punctuation.definition.block.js",
     "punctuation.squarebracket.open.cs",
-    "punctuation.squarebracket.close.cs"
+    "punctuation.squarebracket.close.cs",
+    "punctuation.definition.array.end.json",
+    "punctuation.definition.array.begin.json"
   ],
    "settings": {
     "foreground": "#2e6bff",
@@ -211,7 +259,9 @@
    "name": "LANGUAGE SCOPE",
    "scope": [
     "punctuation.curlybrace.open.cs",
-    "punctuation.curlybrace.close.cs"
+    "punctuation.curlybrace.close.cs",
+    "punctuation.definition.dictionary.end.json",
+    "punctuation.definition.dictionary.begin.json"
   ],
    "settings": {
     "foreground": "#ffffff7e",
